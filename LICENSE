@@ -1,51 +1,59 @@
-ARTCRAFT SUITE PROTECTIVE END-USER LICENSE (ArtCraft-PEUL)
+ARTCRAFT AGENT SKILLS END-USER LICENSE & USAGE TERMS
 
 Copyright (c) 2026 Ivano Rossi. All rights reserved.
-Developed for and compatible with the ArtCraft Suite Ecosystem.
 
 ==============================================================================
-TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+PENTING: BATASAN KEPEMILIKAN & PERNYATAAN BUKAN PEMILIK SOFTWARE ARTCRAFT
+(IMPORTANT: SCOPE OF OWNERSHIP & NON-AFFILIATION DISCLAIMER)
 ==============================================================================
 
-1. DEFINITIONS.
-   "License" shall mean the terms and conditions for use, reproduction,
-   and distribution as defined by this document.
-   "Licensor" and "Author" shall mean Ivano Rossi, who holds the intellectual
-   property rights in the skill architectures, rule files, and configurations.
-   "ArtCraft Ecosystem" shall mean the ArtCraft Suite of applications including
-   FigCraft, AniCraft, CADCraft, Craft Anything, DeckCraft, DesignCraft,
-   EffectCraft, FilmCraft, GridCraft, LightCraft, MailCraft, MaterialCraft,
-   PdfCraft, PhotoCraft, SolidCraft, SoundCraft, TextureCraft, VectorCraft,
-   and WordCraft.
+1. BATASAN KEPEMILIKAN (SCOPE OF AUTHORSHIP):
+   a. Ivano Rossi HANYA memiliki hak cipta atas "Koleksi Agent Skills" yang
+      ada di dalam repositori ini, yaitu:
+      - Berkas instruksi kecerdasan buatan (SKILL.md)
+      - Berkas saklar dan parameter teknis (config.md)
+      - Berkas panduan modul, referensi alur kerja, dan berkas contoh (examples).
+   b. Ivano Rossi TIDAK MEMILIKI, TIDAK MENGKLAIM, dan BUKAN merupakan pemilik
+      atau pengembang dari perangkat lunak / aplikasi "ArtCraft" maupun seluruh
+      cabang aplikasinya (termasuk namun tidak terbatas pada FigCraft, AniCraft,
+      CADCraft, Craft Anything, DeckCraft, DesignCraft, EffectCraft, FilmCraft,
+      GridCraft, LightCraft, MailCraft, MaterialCraft, PdfCraft, PhotoCraft,
+      SolidCraft, SoundCraft, TextureCraft, VectorCraft, dan WordCraft).
 
-2. GRANT OF LICENSE.
-   Subject to the terms and conditions of this License, the Author hereby
-   grants you a perpetual, worldwide, non-exclusive, royalty-free license to:
-   a. Use, reproduce, modify, and integrate these skills for private, educational,
-      creative, and commercial design/development purposes;
-   b. Execute these instruction files with autonomous or assisted AI agents
-      (such as Antigravity, Gemini, or compatible agentic systems);
-   c. Build derivatives, pipelines, and workflows powered by the skill sets.
-
-3. CONDITIONS AND RESTRICTIONS.
-   a. Attribution: All copies or substantial portions of this repository must
-      retain the above copyright notice and this permission notice.
-   b. No Trademark Infringement: This License does not grant permission to use
-      the trade names, trademarks, service marks, or product names of the Licensor
-      or ArtCraft, except as required for reasonable and customary use in describing
-      the origin of the Work.
-   c. Security & Safe Execution: The files within this repository shall not be
-      altered to inject malicious instructions, bypass security boundaries,
-      or compromise host environments during agent execution.
-
-4. DISCLAIMER OF WARRANTY.
-   THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-   AUTHOR OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-   OUT OF OR IN CONNECTION WITH THE WORK OR THE USE OR OTHER DEALINGS IN THE WORK.
+2. HAK KEKAYAAN INTELEKTUAL APLIKASI ARTCRAFT (THIRD-PARTY TRADEMARKS & SOFTWARE):
+   a. Seluruh aplikasi ArtCraft, binary installer, kode sumber aplikasi, logo,
+      ikon, dan merek dagang "ArtCraft" beserta seluruh ekosistemnya adalah
+      milik penuh dan eksklusif dari pengembang / pemilik sah ArtCraft
+      (ArtCraft / Tangram Labs / pengembang resmi masing-masing aplikasi).
+   b. Repositori ini adalah proyek panduan pendamping independen (Third-Party
+      AI Productivity Companion Skills) yang dibuat untuk membantu pengguna
+      mengoperasikan dan menghasilkan karya terbaik saat menggunakan aplikasi-
+      aplikasi tersebut dengan bantuan asisten AI.
 
 ==============================================================================
-By using or deploying these skills, you agree to abide by the terms set forth above.
-Author: Ivano Rossi (2026)
+KETENTUAN PENGGUNAAN SKILL (TERMS FOR SKILL REPOSITORY)
+==============================================================================
+
+3. IZIN PENGGUNAAN SKILL:
+   Dengan tunduk pada batasan di atas, Penulis (Ivano Rossi) memberikan izin
+   bebas royalti di seluruh dunia kepada siapa pun untuk:
+   a. Menggunakan, mengunduh, mempelajari, dan memodifikasi file SKILL.md dan
+      config.md di repositori ini untuk keperluan pribadi, belajar, maupun komersial;
+   b. Mengintegrasikan file skill ini ke dalam IDE atau asisten AI cerdas
+      (seperti Google Antigravity, Gemini CLI, Claude, atau sistem agen lainnya);
+   c. Mendistribusikan ulang file skill dengan syarat TETAP menyertakan nama
+      Ivano Rossi sebagai pembuat instruksi skill dan menyertakan dokumen lisensi ini.
+
+4. KEAMANAN & PENGGUNAAN BERTANGGUNG JAWAB:
+   Pengguna dilarang memodifikasi berkas instruksi skill ini untuk tujuan
+   merusak sistem komputer, menyusupkan malware, atau menyisipkan perintah
+   eksploitasi berbahaya (malicious prompt injection).
+
+5. PENAFIAN TANGGUNG JAWAB (DISCLAIMER OF LIABILITY):
+   Koleksi skill ini disediakan "sebagaimana adanya" (AS-IS), tanpa jaminan
+   apa pun. Penulis tidak bertanggung jawab atas kesalahan output yang
+   dihasilkan oleh model AI atau masalah teknis pada aplikasi ArtCraft pengguna.
+
+==============================================================================
+Penulis & Pemilik Skill: Ivano Rossi (2026)
+Entitas Aplikasi yang Didukung: ArtCraft App Suite (Hak Milik Pemilik Sah ArtCraft)
