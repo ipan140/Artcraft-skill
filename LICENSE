@@ -1,6 +1,6 @@
 ARTCRAFT AGENT SKILLS END-USER LICENSE & USAGE TERMS
 
-Copyright (c) 2026 Ivano Rossi. All rights reserved.
+Copyright (c) 2026-present Ivano Rossi Sugiyanto. All rights reserved.
 
 ==============================================================================
 PENTING: BATASAN KEPEMILIKAN & PERNYATAAN BUKAN PEMILIK SOFTWARE ARTCRAFT
@@ -8,12 +8,12 @@ PENTING: BATASAN KEPEMILIKAN & PERNYATAAN BUKAN PEMILIK SOFTWARE ARTCRAFT
 ==============================================================================
 
 1. BATASAN KEPEMILIKAN (SCOPE OF AUTHORSHIP):
-   a. Ivano Rossi HANYA memiliki hak cipta atas "Koleksi Agent Skills" yang
+   a. Ivano Rossi Sugiyanto HANYA memiliki hak cipta atas "Koleksi Agent Skills" yang
       ada di dalam repositori ini, yaitu:
       - Berkas instruksi kecerdasan buatan (SKILL.md)
       - Berkas saklar dan parameter teknis (config.md)
       - Berkas panduan modul, referensi alur kerja, dan berkas contoh (examples).
-   b. Ivano Rossi TIDAK MEMILIKI, TIDAK MENGKLAIM, dan BUKAN merupakan pemilik
+   b. Ivano Rossi Sugiyanto TIDAK MEMILIKI, TIDAK MENGKLAIM, dan BUKAN merupakan pemilik
       atau pengembang dari perangkat lunak / aplikasi "ArtCraft" maupun seluruh
       cabang aplikasinya (termasuk namun tidak terbatas pada FigCraft, AniCraft,
       CADCraft, Craft Anything, DeckCraft, DesignCraft, EffectCraft, FilmCraft,
@@ -35,25 +35,30 @@ KETENTUAN PENGGUNAAN SKILL (TERMS FOR SKILL REPOSITORY)
 ==============================================================================
 
 3. IZIN PENGGUNAAN SKILL:
-   Dengan tunduk pada batasan di atas, Penulis (Ivano Rossi) memberikan izin
+   Dengan tunduk pada batasan di atas, Penulis (Ivano Rossi Sugiyanto) memberikan izin
    bebas royalti di seluruh dunia kepada siapa pun untuk:
    a. Menggunakan, mengunduh, mempelajari, dan memodifikasi file SKILL.md dan
       config.md di repositori ini untuk keperluan pribadi, belajar, maupun komersial;
    b. Mengintegrasikan file skill ini ke dalam IDE atau asisten AI cerdas
       (seperti Google Antigravity, Gemini CLI, Claude, atau sistem agen lainnya);
    c. Mendistribusikan ulang file skill dengan syarat TETAP menyertakan nama
-      Ivano Rossi sebagai pembuat instruksi skill dan menyertakan dokumen lisensi ini.
+      Ivano Rossi Sugiyanto sebagai pembuat instruksi skill dan menyertakan dokumen lisensi ini.
 
 4. KEAMANAN & PENGGUNAAN BERTANGGUNG JAWAB:
    Pengguna dilarang memodifikasi berkas instruksi skill ini untuk tujuan
    merusak sistem komputer, menyusupkan malware, atau menyisipkan perintah
    eksploitasi berbahaya (malicious prompt injection).
 
-5. PENAFIAN TANGGUNG JAWAB (DISCLAIMER OF LIABILITY):
+5. PERIODE KEBERLAKUAN & PEMBARUAN (PERPETUAL & ONGOING TERMS):
+   Hak cipta dan perlindungan kepemilikan skill ini berlaku sejak tahun pertama kali
+   diterbitkan (2026) hingga tahun berjalan saat ini (present) dan seterusnya
+   secara otomatis dan berkelanjutan tanpa memerlukan pembaruan dokumen fisik setiap tahun.
+
+6. PENAFIAN TANGGUNG JAWAB (DISCLAIMER OF LIABILITY):
    Koleksi skill ini disediakan "sebagaimana adanya" (AS-IS), tanpa jaminan
    apa pun. Penulis tidak bertanggung jawab atas kesalahan output yang
    dihasilkan oleh model AI atau masalah teknis pada aplikasi ArtCraft pengguna.
 
 ==============================================================================
-Penulis & Pemilik Skill: Ivano Rossi (2026)
+Penulis & Pemilik Skill: Ivano Rossi Sugiyanto (2026 - Present)
 Entitas Aplikasi yang Didukung: ArtCraft App Suite (Hak Milik Pemilik Sah ArtCraft)

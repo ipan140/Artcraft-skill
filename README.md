@@ -6,8 +6,8 @@ Koleksi panduan dan modul skill otomasi cerdas (*third-party agent skills*) inde
 
 > [!IMPORTANT]
 > ### ⚖️ Pernyataan Batasan Kepemilikan & Disclaimer
-> * **Kepemilikan Ivano Rossi**: Hak cipta **HANYA** berlaku atas dokumen instruksi AI (*agent skills*), berkas panduan `SKILL.md`, saklar `config.md`, modul referensi, dan contoh kode yang ada di dalam repositori ini.
-> * **Bukan Pemilik Aplikasi ArtCraft**: **Ivano Rossi BUKAN pemilik, bukan pembuat, dan tidak mengklaim kepemilikan apa pun atas perangkat lunak/aplikasi ArtCraft** (FigCraft, AniCraft, CADCraft, FilmCraft, DeckCraft, SolidCraft, dll.). Seluruh aplikasi, kode sumber software, logo, ikon, dan merek dagang ArtCraft adalah milik sah dan eksklusif dari developer resmi ArtCraft / Tangram Labs.
+> * **Kepemilikan Ivano Rossi Sugiyanto**: Hak cipta **HANYA** berlaku atas dokumen instruksi AI (*agent skills*), berkas panduan `SKILL.md`, saklar `config.md`, modul referensi, dan contoh kode yang ada di dalam repositori ini.
+> * **Bukan Pemilik Aplikasi ArtCraft**: **Ivano Rossi Sugiyanto BUKAN pemilik, bukan pembuat, dan tidak mengklaim kepemilikan apa pun atas perangkat lunak/aplikasi ArtCraft** (FigCraft, AniCraft, CADCraft, FilmCraft, DeckCraft, SolidCraft, dll.). Seluruh aplikasi, kode sumber software, logo, ikon, dan merek dagang ArtCraft adalah milik sah dan eksklusif dari developer resmi ArtCraft / Tangram Labs.
 > * **Sifat Proyek**: Repositori ini murni merupakan alat bantu pendamping independen (*Third-Party AI Companion Tool*) agar pengguna mendapatkan hasil terbaik saat menggunakan aplikasi ArtCraft.
 
 ---
@@ -15,12 +15,13 @@ Koleksi panduan dan modul skill otomasi cerdas (*third-party agent skills*) inde
 ## 👤 Hak Cipta Modul Skill (Skill Copyright)
 
 ```text
-Skill Collection Copyright (c) 2026 Ivano Rossi. All rights reserved.
+Skill Collection Copyright (c) 2026-present Ivano Rossi Sugiyanto. All rights reserved.
 Independent AI instructions designed for the ArtCraft App Suite.
 Licensed under the ArtCraft Agent Skills End-User License (see LICENSE file).
 ```
 
-* **Penulis / Kreator Koleksi Skill**: **Ivano Rossi**
+* **Penulis / Kreator Koleksi Skill**: **Ivano Rossi Sugiyanto**
+* **Masa Berlaku Hak Cipta**: **2026 – Present (Terus Aktif & Otomatis Diperbarui Setiap Tahun)**
 * **Target Ekosistem yang Didukung**: ArtCraft App Suite (19 Aplikasi)
 * **Versi Rilis**: 2.0.0 (Independent Community Skills Release)
 
