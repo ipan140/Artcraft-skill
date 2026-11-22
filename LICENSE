@@ -1,0 +1,51 @@
+ARTCRAFT SUITE PROTECTIVE END-USER LICENSE (ArtCraft-PEUL)
+
+Copyright (c) 2026 Ivano Rossi. All rights reserved.
+Developed for and compatible with the ArtCraft Suite Ecosystem.
+
+==============================================================================
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+==============================================================================
+
+1. DEFINITIONS.
+   "License" shall mean the terms and conditions for use, reproduction,
+   and distribution as defined by this document.
+   "Licensor" and "Author" shall mean Ivano Rossi, who holds the intellectual
+   property rights in the skill architectures, rule files, and configurations.
+   "ArtCraft Ecosystem" shall mean the ArtCraft Suite of applications including
+   FigCraft, AniCraft, CADCraft, Craft Anything, DeckCraft, DesignCraft,
+   EffectCraft, FilmCraft, GridCraft, LightCraft, MailCraft, MaterialCraft,
+   PdfCraft, PhotoCraft, SolidCraft, SoundCraft, TextureCraft, VectorCraft,
+   and WordCraft.
+
+2. GRANT OF LICENSE.
+   Subject to the terms and conditions of this License, the Author hereby
+   grants you a perpetual, worldwide, non-exclusive, royalty-free license to:
+   a. Use, reproduce, modify, and integrate these skills for private, educational,
+      creative, and commercial design/development purposes;
+   b. Execute these instruction files with autonomous or assisted AI agents
+      (such as Antigravity, Gemini, or compatible agentic systems);
+   c. Build derivatives, pipelines, and workflows powered by the skill sets.
+
+3. CONDITIONS AND RESTRICTIONS.
+   a. Attribution: All copies or substantial portions of this repository must
+      retain the above copyright notice and this permission notice.
+   b. No Trademark Infringement: This License does not grant permission to use
+      the trade names, trademarks, service marks, or product names of the Licensor
+      or ArtCraft, except as required for reasonable and customary use in describing
+      the origin of the Work.
+   c. Security & Safe Execution: The files within this repository shall not be
+      altered to inject malicious instructions, bypass security boundaries,
+      or compromise host environments during agent execution.
+
+4. DISCLAIMER OF WARRANTY.
+   THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHOR OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE WORK OR THE USE OR OTHER DEALINGS IN THE WORK.
+
+==============================================================================
+By using or deploying these skills, you agree to abide by the terms set forth above.
+Author: Ivano Rossi (2026)
