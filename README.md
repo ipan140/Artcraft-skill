@@ -33,7 +33,7 @@ Setiap aplikasi memiliki folder mandiri yang memuat `config.md` (panel kendali t
 
 | No | Folder Skill | Aplikasi Terkait | Fokus Utama & Spesifikasi Panduan AI |
 | :---: | :--- | :--- | :--- |
-| 1 | [Figcraft](./Figcraft) | FigCraft | Desain komponen frontend, design tokens, responsive breakpoints, dark mode, dan a11y (WCAG AA). |
+| 1 | [FigCraft](./FigCraft) | FigCraft | Desain komponen frontend, design tokens, responsive breakpoints, dark mode, dan a11y (WCAG AA). |
 | 2 | [AniCraft](./AniCraft) | AniCraft | Animasi vektor 2D berbasis timeline, 12 prinsip animasi, graph editor, dan ekspor Lottie JSON/SVG. |
 | 3 | [CADCraft](./CADCraft) | CADCraft | Gambar kerja 2D/3D standar ISO/ANSI, standarisasi layer (kontur, tersembunyi, sumbu), dan toleransi GD&T. |
 | 4 | [CraftAnything](./CraftAnything) | Craft Anything | Dekonstruksi struktur website/aplikasi/game, inspeksi DOM/API, dan rekonstruksi kode bersih. |
@@ -60,8 +60,8 @@ Setiap aplikasi memiliki folder mandiri yang memuat `config.md` (panel kendali t
 ### 1. Cara Mengarahkan AI ke Skill Tertentu
 Saat Anda memberikan instruksi kepada AI assistant, sebutkan nama aplikasinya secara spesifik. AI akan secara otomatis memuat pedoman dari `SKILL.md` aplikasi bersangkutan:
 
-* **Contoh untuk Figcraft**:
-  > *"Gunakan standar **Figcraft** untuk membuat komponen kartu keranjang belanja e-commerce lengkap dengan dark mode dan skeleton loading."*
+* **Contoh untuk FigCraft**:
+  > *"Gunakan standar **FigCraft** untuk membuat komponen kartu keranjang belanja e-commerce lengkap dengan dark mode dan skeleton loading."*
 * **Contoh untuk DeckCraft**:
   > *"Susun outline presentasi 7 slide dengan **DeckCraft** tentang strategi peluncuran produk baru, lengkapi dengan Action Titles dan Speaker Notes."*
 * **Contoh untuk SolidCraft**:
@@ -73,7 +73,7 @@ Saat Anda memberikan instruksi kepada AI assistant, sebutkan nama aplikasinya se
 Sebelum memulai pekerjaan besar pada salah satu aplikasi, Anda dapat membuka berkas `config.md` pada folder aplikasi tersebut untuk mengatur saklar teknis:
 - **Di FilmCraft**: Ubah `project_format` ke `"vertical_reels"` jika ingin membuat video format TikTok/Reels 9:16.
 - **Di CADCraft**: Ubah `standard` ke `"ansi"` jika proyek menggunakan satuan inci (imperial).
-- **Di Figcraft**: Ubah `target_device` ke `"mobile"` jika fokus mendesain antarmuka ponsel.
+- **Di FigCraft**: Ubah `target_device` ke `"mobile"` jika fokus mendesain antarmuka ponsel.
 
 ### 3. Penempatan di Repositori Proyek (Auto-Discovery)
 Jika Anda memiliki proyek koding atau desain tertentu di tempat lain dan ingin Antigravity membaca salah satu skill ini secara otomatis:

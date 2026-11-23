@@ -1,6 +1,6 @@
-# Master Configuration (Saklar Utama)
+# FigCraft Configuration (Panel Kendali Desain Frontend & Komponen UI)
 
-Dokumen ini berfungsi sebagai panel kendali utama untuk **my-custom-skill**. Ubah konfigurasi di bawah ini untuk mengarahkan AI ke target perangkat, stack teknologi, modul aktif, dan preferensi proyek.
+Dokumen ini berfungsi sebagai panel kendali utama untuk **FigCraft** (`figcraft-skill`). Ubah konfigurasi di bawah ini untuk mengarahkan AI ke target perangkat, stack teknologi, modul aktif, dan preferensi proyek.
 
 ---
 

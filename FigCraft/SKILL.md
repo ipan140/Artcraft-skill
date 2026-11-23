@@ -1,17 +1,17 @@
 ---
-name: my-custom-skill
+name: figcraft-skill
 description: >-
   Skill modular canggih dengan konfigurasi adaptif berbasis perangkat (Device Profiles),
   modul aturan frontend (Design System, Architecture, Coding Rules, States & Motion, Assets & Media, A11y, Theme & i18n),
-  serta folder contoh implementasi ideal.
+  serta folder contoh implementasi ideal untuk FigCraft.
   Gunakan skill ini ketika diminta membuat rancangan UI/UX, menulis kode komponen, atau menyusun antarmuka
   yang membutuhkan penyesuaian khusus terhadap target perangkat (Mobile, Tablet, Desktop, Custom Device)
-  serta kepatuhan penuh terhadap standar desain, interaktivitas, dan aksesibilitas modern.
+  serta kepatuhan penuh terhadap standar desain, interaktivitas, dan aksesibilitas modern di FigCraft.
 ---
 
-# My Custom Skill
+# FigCraft Skill: Master UI Component & Frontend Design Suite
 
-Skill ini dirancang dengan pendekatan modular berbasis **konfigurasi sentral (`config.md`)**, **modul spesifikasi (`modules/`)**, **profil target perangkat (`devices/`)**, dan **contoh nyata ideal (`examples/`)**.
+Skill ini dirancang sebagai standar master arsitektur desain komponen antarmuka (UI/UX) dan pengembangan frontend modern di **FigCraft**, berbasis **konfigurasi sentral (`config.md`)**, **modul spesifikasi (`modules/`)**, **profil target perangkat (`devices/`)**, dan **contoh nyata ideal (`examples/`)**.
 
 ---
 
