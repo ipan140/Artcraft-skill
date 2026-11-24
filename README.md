@@ -1,6 +1,68 @@
 # 🎨 ArtCraft Suite — AI Skills & Design Hub
 
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![CLI](https://img.shields.io/badge/CLI-npx%20artcraft--skill-blue?style=for-the-badge)](https://www.npmjs.com/)
+[![Skills](https://img.shields.io/badge/Skills-19%20Modular%20Apps-orange?style=for-the-badge)](https://github.com/ipan140/Artcraft-skill-app)
+[![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](./LICENSE)
+
 Koleksi panduan dan modul skill otomasi cerdas (*third-party agent skills*) independen untuk ekosistem aplikasi **ArtCraft (Craft App Suite)**. Dibuat untuk memandu kecerdasan buatan (AI) agar menghasilkan standar desain, kode, formula, model 3D, timeline audio/video, dan dokumen profesional yang presisi.
+
+---
+
+## ⚡ Quickstart — Interactive CLI & One-Liner Installers
+
+Pilih dan pasang skill ArtCraft ke proyek atau workspace AI Anda (**Antigravity**, **Cursor**, **Claude Code**, **GitHub Copilot**, **Roo Code**) dalam hitungan detik menggunakan CLI interaktif ala `shadcn/ui`:
+
+```bash
+# 🚀 Jalankan CLI Interaktif (Tanpa perlu clone)
+npx artcraft-skill init
+```
+
+Atau gunakan skrip installer one-liner otomatis (curl / PowerShell):
+
+```bash
+# 🐧 Linux & macOS (Terminal)
+curl -fsSL https://raw.githubusercontent.com/ipan140/Artcraft-skill-app/master/install.sh | bash
+
+# 🪟 Windows (PowerShell)
+irm https://raw.githubusercontent.com/ipan140/Artcraft-skill-app/master/install.ps1 | iex
+```
+
+### 💻 Tampilan CLI Terminal Wizard
+
+```
+ ╭──────────────────────────────────────────────────╮
+ │   🎨 ARTCRAFT AI SKILLS SUITE — CLI INSTALLER    │
+ │   Modular AI Agent Skills for ArtCraft Apps      │
+ ╰──────────────────────────────────────────────────╯
+
+◆  Pilih platform target AI:
+●  Google Antigravity (.agents/skills)
+○  Cursor AI (.cursor/skills)
+○  Claude Code (.claude/skills)
+○  GitHub Copilot / VS Code (.github/skills)
+○  Roo Code / Roo Cline (.roo/skills)
+○  Custom Directory...
+
+◆  Pilih skill ArtCraft yang ingin Anda instal:
+◼  [PILIH SEMUA] Instal seluruh 19 Skill ArtCraft Suite
+◻  FigCraft       — UI/UX Design System, Responsive & Accessible React
+◻  AniCraft       — Micro-Interactions, 12 Principles & Motion Specs
+◻  CADCraft       — Parametric 2D/3D CAD, ISO Drafting & ezdxf
+◻  SolidCraft     — Parametric Solid Modeling, DFM, Fits & CadQuery
+◻  ...
+```
+
+### 🛠️ Perintah CLI Tersedia
+
+| Perintah | Deskripsi |
+| :--- | :--- |
+| `npx artcraft-skill` atau `npx artcraft-skill init` | Membuka wizard interaktif checklist untuk memilih platform target dan skill ArtCraft |
+| `npx artcraft-skill init --all` | Menginstal ke-19 skill ArtCraft sekaligus ke platform terpilih |
+| `npx artcraft-skill add <skills...>` | Menginstal skill tertentu secara langsung (contoh: `npx artcraft-skill add figcraft solidcraft`) |
+| `npx artcraft-skill add --all -p ./my-skills` | Menginstal semua skill ke direktori kustom |
+| `npx artcraft-skill list` | Menampilkan katalog visual 19 skill ArtCraft lengkap yang dikelompokkan per kategori |
 
 ---
 
@@ -120,8 +182,14 @@ Sebelum memulai pekerjaan besar pada salah satu aplikasi, Anda dapat membuka ber
 - **Di SoundCraft**: Sesuaikan `target_loudness_lufs` ke `-16.0` untuk podcast atau `-23.0` untuk siaran televisi EBU R128.
 
 ### 3. Penempatan di Repositori Proyek (Auto-Discovery)
-Jika Anda memiliki proyek koding atau desain tertentu di tempat lain dan ingin Antigravity atau AI agen membaca salah satu skill ini secara otomatis:
-- Salin folder skill pilihan Anda (misal: folder `FigCraft` atau `SolidCraft`) ke dalam direktori `.agents/skills/<NamaFolder>` pada root repositori proyek Anda.
+Jika Anda memiliki proyek koding atau desain tertentu di tempat lain dan ingin AI agen membaca skill ini secara otomatis:
+- **Cara Otomatis (Direkomendasikan)**: Buka terminal pada root proyek Anda dan jalankan `npx artcraft-skill init`. Pilih platform AI yang Anda gunakan (Antigravity, Cursor, Claude Code, GitHub Copilot, atau Roo Code), dan CLI akan otomatis menaruh folder skill ke direktori standar agen tersebut.
+- **Cara Manual**: Salin folder skill pilihan Anda (misal: folder `FigCraft` atau `SolidCraft`) ke dalam direktori skill target:
+  - Google Antigravity: `.agents/skills/<NamaFolder>`
+  - Cursor AI: `.cursor/skills/<NamaFolder>`
+  - Claude Code: `.claude/skills/<NamaFolder>`
+  - GitHub Copilot: `.github/skills/<NamaFolder>`
+  - Roo Code: `.roo/skills/<NamaFolder>`
 
 ---
 

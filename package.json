@@ -1,0 +1,68 @@
+{
+  "name": "artcraft-skill",
+  "version": "2.1.0",
+  "description": "Interactive CLI installer and manager for the ArtCraft AI Agent Skills suite",
+  "keywords": [
+    "artcraft",
+    "agent-skills",
+    "ai",
+    "antigravity",
+    "cursor",
+    "claude-code",
+    "cli",
+    "typescript",
+    "copilot"
+  ],
+  "author": "Ivano Rossi Sugiyanto",
+  "license": "SEE LICENSE IN LICENSE",
+  "type": "module",
+  "main": "./dist/index.js",
+  "bin": {
+    "artcraft-skill": "./dist/index.js",
+    "artcraft": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "AniCraft",
+    "CADCraft",
+    "CraftAnything",
+    "DeckCraft",
+    "DesignCraft",
+    "EffectCraft",
+    "FigCraft",
+    "FilmCraft",
+    "GridCraft",
+    "LightCraft",
+    "MailCraft",
+    "MaterialCraft",
+    "PdfCraft",
+    "PhotoCraft",
+    "SolidCraft",
+    "SoundCraft",
+    "TextureCraft",
+    "VectorCraft",
+    "WordCraft",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "start": "node ./dist/index.js",
+    "typecheck": "tsc --noEmit",
+    "cli": "node ./dist/index.js"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.10.0",
+    "commander": "^13.1.0",
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
