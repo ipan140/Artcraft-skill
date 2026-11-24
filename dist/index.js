@@ -246,12 +246,16 @@ var __filename = fileURLToPath(import.meta.url);
 var __dirname = path.dirname(__filename);
 async function getSkillsSourceDir() {
   const possiblePaths = [
-    path.resolve(__dirname, ".."),
+    path.resolve(__dirname, "../skills"),
     // Saat dijalankan dari dist/ di root repo
-    path.resolve(__dirname, "../.."),
-    // Cadangan
-    process.cwd()
+    path.resolve(__dirname, "../../skills"),
+    // Cadangan saat nested di node_modules
+    path.join(process.cwd(), "skills"),
     // Jika user menjalankan di dalam repo ArtCraft
+    path.resolve(__dirname, ".."),
+    // Fallback langsung ke parent
+    process.cwd()
+    // Fallback root
   ];
   for (const candidate of possiblePaths) {
     try {
@@ -261,7 +265,7 @@ async function getSkillsSourceDir() {
     } catch {
     }
   }
-  return path.resolve(__dirname, "..");
+  return path.resolve(__dirname, "../skills");
 }
 async function installSkill(skill, targetDirectory, sourceBaseDir) {
   const sourcePath = path.join(sourceBaseDir, skill.folder);

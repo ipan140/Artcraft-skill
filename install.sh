@@ -50,7 +50,10 @@ SKILLS=(
 )
 
 for skill in "${SKILLS[@]}"; do
-    if [ -d "$TEMP_DIR/$skill" ]; then
+    if [ -d "$TEMP_DIR/skills/$skill" ]; then
+        cp -r "$TEMP_DIR/skills/$skill" "$TARGET_DIR/"
+        echo -e "  ${GREEN}✔${NC} Terpasang: ${BOLD}$skill${NC}"
+    elif [ -d "$TEMP_DIR/$skill" ]; then
         cp -r "$TEMP_DIR/$skill" "$TARGET_DIR/"
         echo -e "  ${GREEN}✔${NC} Terpasang: ${BOLD}$skill${NC}"
     fi

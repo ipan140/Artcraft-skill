@@ -11,11 +11,12 @@ const __dirname = path.dirname(__filename);
  * Mendukung eksekusi lokal (di dalam repo) maupun saat dijalankan via global npx package.
  */
 export async function getSkillsSourceDir(): Promise<string> {
-  // 1. Cek relatif dari file yang dikompilasi di dist/
   const possiblePaths = [
-    path.resolve(__dirname, ".."),           // Saat dijalankan dari dist/ di root repo
-    path.resolve(__dirname, "../.."),        // Cadangan
-    process.cwd(),                           // Jika user menjalankan di dalam repo ArtCraft
+    path.resolve(__dirname, "../skills"),       // Saat dijalankan dari dist/ di root repo
+    path.resolve(__dirname, "../../skills"),    // Cadangan saat nested di node_modules
+    path.join(process.cwd(), "skills"),         // Jika user menjalankan di dalam repo ArtCraft
+    path.resolve(__dirname, ".."),              // Fallback langsung ke parent
+    process.cwd(),                              // Fallback root
   ];
 
   for (const candidate of possiblePaths) {
@@ -28,8 +29,8 @@ export async function getSkillsSourceDir(): Promise<string> {
     }
   }
 
-  // Jika tidak ditemukan lokal, gunakan direktori repo root saat ini
-  return path.resolve(__dirname, "..");
+  // Jika tidak ditemukan, default ke folder skills di root
+  return path.resolve(__dirname, "../skills");
 }
 
 /**

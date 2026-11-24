@@ -42,7 +42,10 @@ $Skills = @(
 )
 
 foreach ($skill in $Skills) {
-    $src = Join-Path $TempDir $skill
+    $src = Join-Path $TempDir (Join-Path "skills" $skill)
+    if (-not (Test-Path $src)) {
+        $src = Join-Path $TempDir $skill
+    }
     if (Test-Path $src) {
         Copy-Item -Recurse -Force $src $TargetDir
         Write-Host "  ✔ Terpasang: $skill" -ForegroundColor Green
